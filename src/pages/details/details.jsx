@@ -9,7 +9,7 @@ import VideosSection from "./videosSection/VideosSection";
 import Similar from "./carousels/Similar";
 import Recommendation from "./carousels/Recommendation";
 
-const detail = () => {
+const Detail = () => {
   const { mediaType, id } = useParams();
   const { data, loading } = useFetch(`/${mediaType}/${id}/videos`);
   const { data: credits, loading: creditsLoading } = useFetch(
@@ -42,4 +42,4 @@ const detail = () => {
   );
 };
 
-export default detail;
+export default Detail;

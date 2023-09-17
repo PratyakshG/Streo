@@ -6,7 +6,7 @@ import TopRated from "./topRated/TopRated";
 
 import "./home.scss";
 
-const home = () => {
+const Home = () => {
   return (
     <div className="homepage">
       <HeroBanner />
@@ -17,4 +17,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
